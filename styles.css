@@ -8,33 +8,67 @@ body {
     background-image: url("img/8320.jpg");
     color: white;
     padding: 20px;
+    min-width: 750px;
 }
 
 .center {
     text-align: center;
 }
 
+
+.bold{
+    font-weight: bold;
+}
+
 .title-card {
-    border-radius: 15px;
-    background-color: lightgrey;
-    margin: 20px;
-    padding: 5px;
     margin: auto;
     width: 50%;
 }
 
+.icons {
+    margin-top: 125px;
+    margin-left: 30px;
+}
+
+@font-face {
+     font-family: nebulari;
+    src: url(fonts/nebulari.otf);
+}
+
 .title {
-    font-family: Georgia;
-    font-weight: bold;
+    font-family: nebulari;
     text-align: center;
-    color: black;
-    text-decoration: underline;
+    color: white;
+}
+
+.panel {
+    background-color: #229;
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+
+}
+
+.column {
+    position: absolute;
+    margin-top: -232px;
+    margin-left: 220px;
+}
+
+.vl1 {
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid white;
+    height: 200px;
+    margin-top: -215px;
+    margin-left: 200px;
 }
 
 .avatar-card {
     float: right;
     text-align: center;
-    margin-top: -200px;
+    margin-top: -220px;
     margin-right:50px;
     font-weight: bold;
 }
@@ -47,15 +81,38 @@ body {
 }
 
 .info {
+    margin: auto;
+    width: 650px;
+    padding: 10px;
     background-color: #225;
-    padding: 50px;
     border-radius: 15px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.info-title {
+.info a {
+    text-decoration: none;
+    color: white;
     font-weight: bold;
+}
+
+.info a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.info a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.info a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.info a:active {
+    text-decoration: none;
+    color: white;
 }
 
 .terminal{
@@ -119,7 +176,7 @@ div.terminal-header {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #3D9970;
+    background-color: #225;
     color: white;
     padding: 20px;
 }
@@ -148,10 +205,6 @@ div.terminal-header {
 .footer a:active {
     text-decoration: none;
     color: white;
-}
-
-.bold{
-    font-weight: bold;
 }
 
 .email {
