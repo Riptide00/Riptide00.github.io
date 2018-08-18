@@ -1,3 +1,3 @@
-.checklist ul {list-style: none}
+ul.checklist  {list-style: none}
 
-.checklist li::before {content: "☑ "; color: green}
+li.checklist ::before {content: "☑ "; color: green}
