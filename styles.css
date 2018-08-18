@@ -1,2 +1,2 @@
 ul {list-style: none}
-li::before {content: "☑"; color: green}
+li::before {content: "☑ "; color: green}
