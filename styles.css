@@ -30,9 +30,13 @@ body {
     margin-bottom: 50px;
 }
 
+.email-info {
+    margin-left: -15px;
+}
+
 .icons {
     margin-top: 110px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 @font-face {
@@ -84,6 +88,7 @@ body {
     height: 90px;
     width: 90px;
     border-radius: 90px;
+    margin: auto;
 }
 
 .info {
@@ -217,4 +222,10 @@ div.terminal-header {
 .email {
     text-align: center;
     margin-top: -90px;
+}
+
+@media (max-width: 600px) {
+    .email {
+        float: right;
+    }
 }
