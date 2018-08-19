@@ -9,6 +9,11 @@ body {
     color: white;
     padding: 20px;
     min-width: 750px;
+    margin-bottom: 200px;
+}
+
+.wrapper {
+    height: 650px;
 }
 
 .center {
