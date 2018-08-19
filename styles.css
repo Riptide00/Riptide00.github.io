@@ -15,6 +15,8 @@ body {
 
 .wrapper {
     height: 650px;
+    max-width: 600px;
+    margin: auto;
 }
 
 .center {
@@ -22,7 +24,7 @@ body {
 }
 
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -30,7 +32,6 @@ body {
     margin: auto;
     width: 50%;
     margin-bottom: 50px;
-    text-align: center;
 }
 
 .email-info {
@@ -57,7 +58,7 @@ body {
     -webkit-box-shadow: 10px 0 5px -2px #227;
     box-shadow: 10px 0 5px -2px #227;
     background-color: #229;
-    width: 50%;
+    width: 72%;
     padding: 20px;
     border-radius: 15px;
 }
@@ -66,6 +67,7 @@ body {
     position: absolute;
     margin-top: -232px;
     margin-left: 220px;
+    width: 400px;
 }
 
 .vl1 {
@@ -81,7 +83,7 @@ body {
     float: right;
     text-align: center;
     margin-top: -220px;
-    margin-right:50px;
+    margin-right: 15px;
     font-weight: bold;
 }
 
@@ -95,11 +97,9 @@ body {
 
 .info {
     margin: auto;
-    width: 100%;
     background-color: #225;
     border-radius: 15px;
     margin-bottom: 20px;
-    min-width: 900px;
 }
 
 .info a {
@@ -238,30 +238,32 @@ div.terminal-header {
         width: 0px;
     }
 
-    .panel {
-        height: 460px;
-        width: 100%;
-        box-shadow: none;
-    }
-
     .info {
         height: 500px;
-        max-width: 100px;
+        width: 80%;
+    }
+
+    .panel {
+        height: 460px;
+        width: 95%;
+        box-shadow: none;
     }
 
     .column {
         margin-left: 0px;
         margin-top: -10px;
+        margin-right: 50px;
     }
 
     .avatar-card {
-        margin-bottom: 400px;
         float: none;
-        width: 50%;
+        margin-left: 35%;
+        margin-bottom: 100px;
     }
 
     .avatar {
         float: none;
+        margin: auto;
     }
 
 }
