@@ -4,4 +4,5 @@ Just a simple hompage nothing special.
 
 # Todo
 
-Make mobile friendly.
+- Make it even more mobile friendly.
+- Cleanup margins.
