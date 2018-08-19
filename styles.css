@@ -227,5 +227,6 @@ div.terminal-header {
 @media (max-width: 600px) {
     .email {
         float: right;
+        margin-right: 30px;
     }
 }
