@@ -6,7 +6,6 @@ li.checklist-item-false::before {content: "☐ "; color: red}
 
 body {
     font-family: Arial;
-    background-color: grey;
     background-image: url("img/8320.jpg");
     color: white;
     padding: 20px;
@@ -44,12 +43,12 @@ body {
 }
 
 @font-face {
-    font-family: nebulari;
-    src: url(fonts/nebulari.otf);
+    font-family: Curse;
+    src: url(fonts/Curse.ttf);
 }
 
 .title {
-    font-family: nebulari;
+    font-family: Curse;
     text-align: center;
     color: white;
 }
@@ -100,6 +99,7 @@ body {
     background-color: #225;
     border-radius: 15px;
     margin-bottom: 20px;
+    min-width: 600px;
 }
 
 .info a {
@@ -244,7 +244,10 @@ div.terminal-header {
 
     .info {
         height: 500px;
-        width: 80%;
+        width: 100%;
+        min-width: 240px;
+        margin-left: -5px;
+        margin-right: -20px;
     }
 
     .panel {
