@@ -8,7 +8,6 @@ body {
     background-image: url("img/8320.jpg");
     color: white;
     padding: 20px;
-    min-width: 750px;
     margin-bottom: 200px;
 }
 
@@ -32,8 +31,9 @@ body {
 }
 
 .icons {
-    margin-top: 115px;
+    margin-top: 110px;
     margin-left: 10px;
+    overflow: none;
 }
 
 @font-face {
@@ -90,7 +90,7 @@ body {
 
 .info {
     margin: auto;
-    width: 650px;
+    width: 100%;
     background-color: #225;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -128,7 +128,7 @@ body {
 
 div.terminal {
     margin: auto;
-    width: 660px;
+    width: 100%;
     border: solid;
     border-radius: 15px;
     border-width: : 5px;
