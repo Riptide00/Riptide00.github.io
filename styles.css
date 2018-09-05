@@ -6,7 +6,7 @@ li.checklist-item-false::before {content: "☐ "; color: red}
 
 body {
     font-family: Arial;
-    background-image: url("img/8320.jpg");
+    background-image: url("img/background.jpg");
     color: white;
     padding: 20px;
     margin-bottom: 200px;
