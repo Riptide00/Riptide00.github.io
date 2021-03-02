@@ -14,7 +14,6 @@ body {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .card {
@@ -29,7 +28,6 @@ body {
   padding-bottom: 10px;
   width: 80%;
   max-width: 400px;
-  margin: 0;
 }
 
 .top {
@@ -88,7 +86,7 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   padding: 0;
   align-self: center;
