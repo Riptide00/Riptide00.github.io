@@ -50,6 +50,15 @@ body {
   margin: 0;
 }
 
+.mail {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+.mail:hover {
+  color: #FC8569;
+}
+
 .badges {
   display: flex;
   flex-direction: row;
