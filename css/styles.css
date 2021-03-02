@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .card {
@@ -69,7 +70,6 @@ img {
   align-content: center;
   overflow: hidden;
   border-radius: 5px;
-  border: solid 2px #555;
 }
 
 ul {
