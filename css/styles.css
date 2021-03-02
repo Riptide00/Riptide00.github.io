@@ -72,12 +72,14 @@ body {
 }
 
 ul {
+  background-color: yellow;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 260px;
-  margin-left: 30px;
+  width: 100%;
+  padding: 0;
+  align-self: center;
 }
 ul a {
   text-decoration: none;
