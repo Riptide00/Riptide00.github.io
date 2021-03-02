@@ -28,13 +28,12 @@ body {
   margin-left: -10px;
 }
 
-a {
+.top {
   margin-top: -130px;
   margin-bottom: 40px;
   align-self: center;
 }
-
-img {
+.top img {
   border: 5px solid #FC8569;
   border-radius: 90px;
   width: 150px;
@@ -77,7 +76,8 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: -30px;
+  width: 260px;
+  margin-left: 30px;
 }
 ul a {
   text-decoration: none;
