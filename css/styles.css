@@ -100,13 +100,30 @@ ul a:hover {
   color: #000000;
 }
 
+.study {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
 .codecademy {
   width: 100%;
   text-align: center;
 }
 
 .codecademy img {
-  width: 50%;
+  height: 40px;
+}
+
+.freecodecamp {
+  width: 100%;
+  text-align: center;
+}
+
+.freecodecamp img {
+  margin-bottom: -14px;
+  height: 15px;
 }
 
 .icon {
